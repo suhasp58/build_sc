@@ -49,13 +49,12 @@ cp springredis-0.0.1-SNAPSHOT.jar /build_sc/data-pusher/service1/springredis.jar
 cp springredis-0.0.1-SNAPSHOT.jar /build_sc/data-pusher/service2/springredis.jar
 cp springredis-0.0.1-SNAPSHOT.jar /build_sc/data-pusher/service3/springredis.jar
 cp springredis-0.0.1-SNAPSHOT.jar /build_sc/data-pusher/service4/springredis.jar
-mkdir /build_sc/redis
+cp -r File/redis /build_sc
 cd /build_sc/File
 cp JSONFile1.txt /build_sc/data-pusher/service1/JSONFile1.txt
 cp JSONFile2.txt /build_sc/data-pusher/service2/JSONFile2.txt
 cp JSONFile3.txt /build_sc/data-pusher/service3/JSONFile3.txt
 cp JSONFile4.txt /build_sc/data-pusher/service4/JSONFile4.txt
-cp redis/redis.conf.txt /build_sc/redis/redis.conf 
 
 cp docker-compose.yml /build_sc/docker-compose.yml
 
