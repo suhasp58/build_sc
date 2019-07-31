@@ -1,7 +1,7 @@
 git clone https://github.com/suhasp58/data-pusher.git
 git clone https://github.com/suhasp58/File.git
 
-mkdir /home/build_sc/data-pusher/service1  /home/build_sc/data-pusher/service2 /home/build_sc/data-pusher/service3 /home/build_sc/data-pusher/service4
+mkdir /build_sc/data-pusher/service1  /build_sc/data-pusher/service2 /build_sc/data-pusher/service3 /build_sc/data-pusher/service4
 
 cd /home/build_sc/data-pusher/service1
 
