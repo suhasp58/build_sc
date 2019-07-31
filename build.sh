@@ -49,7 +49,7 @@ cp springredis-0.0.1-SNAPSHOT.jar /build_sc/data-pusher/service1/springredis.jar
 cp springredis-0.0.1-SNAPSHOT.jar /build_sc/data-pusher/service2/springredis.jar
 cp springredis-0.0.1-SNAPSHOT.jar /build_sc/data-pusher/service3/springredis.jar
 cp springredis-0.0.1-SNAPSHOT.jar /build_sc/data-pusher/service4/springredis.jar
-cp -r File/redis /build_sc
+cp -r /build_sc/File/redis /build_sc
 cd /build_sc/File
 cp JSONFile1.txt /build_sc/data-pusher/service1/JSONFile1.txt
 cp JSONFile2.txt /build_sc/data-pusher/service2/JSONFile2.txt
