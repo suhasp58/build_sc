@@ -1,6 +1,9 @@
 git clone https://github.com/suhasp58/data-pusher.git
 git clone https://github.com/suhasp58/File.git
 
+cd /build_sc/data-pusher/src/main/java/com/suhas
+sed -i 's/"192.168.195.233"/"<yourip>"/g' controller.java
+
 mkdir /build_sc/data-pusher/service1  /build_sc/data-pusher/service2 /build_sc/data-pusher/service3 /build_sc/data-pusher/service4
 
 cd /build_sc/data-pusher/service1
