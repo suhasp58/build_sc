@@ -1,8 +1,7 @@
 git clone https://github.com/suhasp58/data-pusher.git
 git clone https://github.com/suhasp58/input-data.git
-
-#cd build_sc/data-pusher/src/main/java/com/suhas
-#sed -i 's/"192.168.195.233"/"<yourip>"/g' controller.java
+ 
+#sed -i 's/"192.168.195.233"/"<yourip>"/g' data-pusher/src/main/java/com/suhascontroller.java
 
 cd data-pusher
 mvn clean install
