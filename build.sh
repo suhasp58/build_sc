@@ -15,5 +15,5 @@ docker build -t data-pusher-service3:v1 ./data-pusher
 sed  -e 's/jsonfile3.txt/jsonfile4.txt/g' -e 's/-Dserver.port=8083/-Dserver.port=8084/g' -e 's/8083/8084/g' -e 's/./input-file/jsonfile3/./input-file/jsonfile4/g' ./data-pusher/Dockerfile
 docker build -t data-pusher-service4:v1 ./data-pusher
 
-
-docker-compose up --build
+cd input-data 
+docker-compose up 
