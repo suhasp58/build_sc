@@ -7,7 +7,7 @@ git clone https://github.com/suhasp58/input-data.git
 cd data-pusher
 mvn clean install
 cd ..
-
+cp data-pusher/target/springredis-0.0.1-SNAPSHOT.jar input-data/
 docker build -t data-pusher-service1:v1 ./input-data
 sed -i -e 's/jsonfile1.txt/jsonfile2.txt/g' -e 's/-Dserver.port=8081/-Dserver.port=8082/g' -e 's/8081/8082/g' ./input-data/Dockerfile
 docker build -t data-pusher-service2:v1 ./input-data
