@@ -17,4 +17,4 @@ sed  -e 's/jsonfile3.txt/jsonfile4.txt/g' -e 's/-Dserver.port=8083/-Dserver.port
 docker build -t data-pusher-service4:v1 ./input-data
 
 cd input-data 
-docker-compose up 
+docker-compose up --build
