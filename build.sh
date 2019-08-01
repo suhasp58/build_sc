@@ -4,7 +4,7 @@ git clone https://github.com/suhasp58/input-data.git
 #cd build_sc/data-pusher/src/main/java/com/suhas
 #sed -i 's/"192.168.195.233"/"<yourip>"/g' controller.java
 
-cd build_sc/data-pusher
+cd data-pusher
 mvn clean install
 
 docker build -t data-pusher-service1:v1 ./data-pusher
